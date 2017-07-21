@@ -21,7 +21,7 @@
 
 このアプリにもたらす社会的利益は、写真付き投稿が迅速、簡単にできるため、あとでゆっくり見直すできるので, 人々にたくさん投稿するモチベーションを与えること. これも WordPress REST API　使うためのいい実例になる.
 
- 
+ ![](./appwebview.png)
 
 WordPress REST API対応WordPressサイトに投稿した内容の画面コピー
 
@@ -29,13 +29,13 @@ WordPress REST API対応WordPressサイトに投稿した内容の画面コピ�
 
 このアプリは WordPress REST API使うため, 全ての機能をテストするには、WordPressにREST APIを入れる必要. こちらのテストサイトを自由に利用しても構わない. アプリをダウンロードするには、MIT AI2 Companionアプリまたはスキャナーアプリを使っでQRコードをスキャンして、 または このダウンロードリンクをクリックする.
 
-
+ ![](./apkdownload-1.png)
 
 ## Technical Description.
 
 下記の画面コピーにあるように、このアプリはプロジェクトの最低限仕様を満たした。中に 2 個グローバル変数（global variables）, 4 個リストデータ（list data）, 2個関数（procedures or functions）, そして 2 個if/else 構造（structure）が含まれた。
 
-
+ ![](./blocksview.png)
 
 ## Appendix.
 
