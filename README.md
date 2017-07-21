@@ -1,38 +1,52 @@
-# 簡易Easy Photo Blog 投稿ツール　(Photoblog)
+# Ubiquitous Information System lab.
+# ユビキタス情報システム研究室
 
-## Project Title.
-簡易Easy Photo Blog 投稿ツール
+([chenlab.work](http://chenlab.work))
 
-## Elevator Pitch.
-このクラウド対応アプリは、スマートフォンの写真ギャラリーから写真を選び、自分のWordPressサイトのメデイアファイルに保存し，この写真を含める投稿を作成する.
+# Research
+何時でも何処でも誰もが容易に利用できるユビキタス情報システム・サービスを創ることを目標としています。
 
-## Description.
-簡易Easy Photo Blog 投稿ツールはスマートフォンのアプリ、簡単に自分のWordPressサイトに、写真付き投稿するためのもの。次のステップで投稿する:
+* 学習管理システム：何時でも何処でも学習したいと思った時環境を提供
+* 教育支援システム：学年歴図書館などキャンパス情報何時でもアクセス
+* 観光情報システム：その時その場で必要な観光情報を即座に映し出す
 
-1. タイトル入力
-1. 写真ギャラリーから写真を選び
-1. “Post to media”ボタンを押し、WordPressサイトのメデイアファイルに保存する
-1. 投稿する内容を入力する
-1. “Post Blog”ボタンを押し、写真付き投稿を完了する .
+![](./uislab2017.png)
 
-このアプリは、自分のWordPressサイトに写真付き投稿を楽にするものである.
+実空間と仮想空間と融合、さりげなく利用者を支え
 
-このアプリにもたらす社会的利益は、写真付き投稿が迅速、簡単にできるため、あとでゆっくり見直すできるので, 人々にたくさん投稿するモチベーションを与えること. これも [WordPress REST API](http://wp-api.org/)　使うためのいい実例になる.
+# Projects
 
+## App and Cloud
+1. [Classroom attendance App and Cloud](./SmartClassroom)
+1. [Bookshelf App and Cloud](./SmartLibrary)
+1. [Traveler App and Cloud](./SmartTravel)
 
-WordPress REST API対応WordPressサイトに投稿した内容の画面コピー
+## IoT and Cloud
+1. [Ubiquitous Home](./SmartHome)
+1. [EKG App and Cloud](./SmartHealth)
 
+## Information System
+1. [Classroom account and file share](./SmartCloud)
+1. [Google Classroom API Application](./SmartLearning)
 
-## Download and Test.
-このアプリは WordPress REST API使うため, 全ての機能をテストするには、WordPressにREST APIを入れる必要. こちらの[テストサイト](http://wp-api.pw/)を自由に利用しても構わない. アプリをダウンロードするには、MIT AI2 Companionアプリまたはスキャナーアプリを使っでQRコードをスキャンして、 または [このダウンロードリンクをクリックする](https://sites.google.com/site/chen420/my-apk/PhotoBlog%20%281%29.apk?attredirects=0&d=1).
+# Supervisor
+* [Hong Chen](https://chen420.github.io/)
 
+# Members
+* [Members](./Members.md)
 
-## Technical Description.
-下記の画面コピーにあるように、このアプリはプロジェクトの最低限仕様を満たした。中に 2 個グローバル変数（global variables）, 4 個リストデータ（list data）, 2個関数（procedures or functions）, そして 2 個if/else 構造（structure）が含まれた。
+# Knowledge base
+* [Lubuntu](./lubuntu.md)
+* [App inventor](./ai2.md)
+* [WordPress](./wp.md)
+* [Processing](./Processing.md)
 
+# Web sites
+* [http://chenlab.net](http://chenlab.net)
+* [http://daiichi-koudai.com](http://daiichi-koudai.com)
 
-## Appendix.
-
-WP REST APIはWordPressのプラグイン、 将来は WordPressコアに組み入れ、WordPressを ブログプラットフォーム/CMS から、本格的なアプリケーション・フレームワークへ変身するために一歩である。
-
-WP REST API は OAuth 1.0a とBasic Auth 認証方法サポートする。 しかしApp InventorはOAuth 1.0a対応できないため, Basic Authを利用した。Basic Auth はbase64 encodeを利用するが、それもApp Inventorだけでは計算できない, だからこのアプリは、グローバル変数（global variable）に 予めbase64 encode計算した値を入れる。
+# Related Pages
+* [https://uislab.github.io](https://uislab.github.io)
+* [https://ubiclub.github.io](https://ubiclub.github.io)
+* [https://edu2web.github.io](https://edu2web.github.io)
+* [https://gitbook.com](https://gitbook.com)
