@@ -29,7 +29,7 @@ WordPress REST API対応WordPressサイトに投稿した内容の画面コピ�
 
 このアプリは WordPress REST API使うため, 全ての機能をテストするには、WordPressにREST APIを入れる必要. こちらのテストサイトを自由に利用しても構わない. アプリをダウンロードするには、MIT AI2 Companionアプリまたはスキャナーアプリを使っでQRコードをスキャンして、 または このダウンロードリンクをクリックする.
 
- ![](./apkdownload-1.png)
+ # ![](./apkdownload-1.png)
 
 ## Technical Description.
 
